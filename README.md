@@ -6,6 +6,7 @@ Usage
 ```sh
 $ git clone https://github.com/bambarello/danted.git
 $ cd danted
+$ nano Dockerfile
 $ docker-compose build
 $ docker-compose up
 ```

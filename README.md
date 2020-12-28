@@ -12,7 +12,6 @@ $ docker-compose up
 
 You can change username and password in docker-compose.yml
 
-----
 ```sh
 $ nano docker-compose.yml
 ```

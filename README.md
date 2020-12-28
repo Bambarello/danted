@@ -4,13 +4,18 @@ Dante SOCKS proxy server
 Usage
 ----
 ```sh
-$ git clone https://github.com/c29r3/danted.git
+$ git clone https://github.com/bambarello/danted.git
 $ cd danted
 $ docker-compose build
 $ docker-compose up
 ```
 
 You can change username and password in docker-compose.yml
+
+----
+```sh
+$ nano docker-compose.yml
+```
 
 Test
 ----

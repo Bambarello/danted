@@ -15,6 +15,6 @@ RUN adduser -S -H ${PROXY_USER} \
 
 ADD sockd.conf /etc/sockd.conf
 
-EXPOSE 1080
+EXPOSE 55555
 
 CMD ["sockd", "-f", "/etc/sockd.conf"]`
